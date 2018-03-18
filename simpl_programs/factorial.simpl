@@ -1,0 +1,4 @@
+for (Out := 1; In > 0; In := In - 1) {
+    Out := In * Out
+}
+

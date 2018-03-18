@@ -1,0 +1,20 @@
+-- this program returns the n-th fibonacci number
+F0 := 1;
+F1 := 1;
+
+if (In == 0) {
+    Out := F0
+} else {
+    if (In == 1) {
+        Out := F1
+    } else {
+        for (C := 2; C <= In; C++) {
+            T  := F0 + F1;
+            F0 := F1;
+            F1 := T;
+            Out := T
+        }
+    }
+}
+
+

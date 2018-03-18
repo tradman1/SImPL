@@ -1,0 +1,5 @@
+Out := 0;
+while (In >= Out * Out) {
+    Out++
+};
+Out := Out - 1
